@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:   Sidebar Testimonial Plugin
- * Plugin URI:    https://toolboxcreative.com
+ * Plugin URI:    -
  * Description:   Adds a testimonial widget that displays the site title and tagline in a widget area.
  * Version:       1.0
  * Author:        Shane Miles
- * Author URI:    https://toolboxcreative.com
+ * Author URI:    -
  */
 
 class tbc_testimonial_widget extends WP_Widget {
