@@ -25,39 +25,10 @@ class tbc_testimonial_widget extends WP_Widget {
     $img_url = apply_filters( 'img_url', $instance[ 'img_url' ] ); 
       
 ?>
-<div class="fusion-fullwidth fullwidth-box testimonial-container with-photo nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:30px;padding-right:0px;padding-bottom:30px;padding-left:0px;">
-    <div class="fusion-builder-row fusion-row ">
-        <div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1" style="margin-top:0px;margin-bottom:20px;">
-					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-						<div class="fusion-testimonials clean fusion-testimonials-4" data-random="0">
-                            <style type="text/css" scoped="scoped">
-                                #fusion-testimonials-4 a{border-color:#332754;}#fusion-testimonials-4 a:hover, #fusion-testimonials-4 .activeSlide{background-color: #332754;}.fusion-testimonials.clean.fusion-testimonials-4 .author:after{border-top-color:#f6f6f6 !important;}
-                            </style>
-                            <div class="reviews">
-                                <div class="review avatar-image" style="display: block;">
-                                    <div class="testimonial-thumbnail">
                                         <img class="testimonial-image" src="<?php echo $img_url?>" width="200" height="200">
-                                    </div>
-                                    <blockquote style="background-color:#f6f6f6;">
-                                        <q style="background-color:#f6f6f6;color:#332754;" class="fusion-clearfix">
-                                            <p><?php echo $testimonial; ?></p>
-                                        </q>
-                                    </blockquote>
-                                    <div class="author" style="color:#332754;">
+                                        <p><?php echo $testimonial; ?></p>
                                         <span class="company-name"><strong><?php echo $name; ?></strong></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-pagination" id="fusion-testimonials-4">
-                            </div>
-                        </div>
-                        <div class="fusion-clearfix">
-                        </div>
-
-					</div>
-				</div>
-    </div>
-</div>
+                                    
     <?php echo $args['after_widget'];
   }
 
